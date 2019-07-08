@@ -66,9 +66,8 @@
 			children = (
 				1EE7D1AD22D32D1800E36AD7 /* AppDelegate.swift */,
 				1EE7D1C322D3300300E36AD7 /* Controllers */,
-				1EE7D1B122D32D1800E36AD7 /* Main.storyboard */,
-				1EE7D1B422D32D1900E36AD7 /* Assets.xcassets */,
-				1EE7D1B622D32D1900E36AD7 /* LaunchScreen.storyboard */,
+				1EE7D1CE22D34AE700E36AD7 /* Views */,
+				1EE7D1CD22D34AD700E36AD7 /* Supporting Files */,
 				1EE7D1B922D32D1900E36AD7 /* Info.plist */,
 			);
 			path = tabBar1;
@@ -85,6 +84,23 @@
 				1EE7D1CB22D3449B00E36AD7 /* BackViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1EE7D1CD22D34AD700E36AD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EE7D1B422D32D1900E36AD7 /* Assets.xcassets */,
+				1EE7D1B622D32D1900E36AD7 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EE7D1CE22D34AE700E36AD7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1EE7D1B122D32D1800E36AD7 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
