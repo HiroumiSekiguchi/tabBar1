@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CloseViewController.swift
 //  tabBar1
 //
 //  Created by 関口大海 on 2019/07/08.
@@ -8,13 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CloseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
+    
 
+    @IBAction func closeButtonTapped(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
 
 }
-
